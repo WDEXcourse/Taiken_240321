@@ -40,4 +40,16 @@ public class PlayerMove : MonoBehaviour
     }
 
 
+void OnCollisionStay(Collision hit) 
+{
+    if(hit.gameObject.tag == "Enemy")
+    {
+        transform.position = new Vector3( 21 ,12 ,-2 );
+    }
+
 }
+
+}   
+
+
+
