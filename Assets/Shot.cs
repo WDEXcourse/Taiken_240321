@@ -37,4 +37,5 @@ public class Shot : MonoBehaviour
             cloneBall.GetComponent<Rigidbody>().AddForce(transform.forward * 1000);
         }
     }
+    
 }
